@@ -1,0 +1,141 @@
+header {
+  background-image: url("../assets/band.jpg");
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+  .fa-user-circle {
+      font-size: 50px;
+      margin-top: 30px;
+      margin-left: 30px;
+      color: white;
+    }
+    ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+  // padding-right: 30px;
+    }
+    li {
+      float: left;
+      display: inline-block;
+      margin-left: 10px;
+    }
+    a {
+      background-color: darkgrey;
+      color: white;
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: black;
+    }
+    .dropdown {
+      position: relative;
+      top: 30px;
+      right: 30px;
+    }
+    .drop-nav {
+      position: absolute;
+      display: none;
+    }
+    .drop-nav li {
+      width: 150px;
+      margin: 0;
+    }
+    .dropdown:hover .drop-nav {
+      display: block;
+    }
+  h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  h1, h3 {
+    margin: 0;
+    clear: both;
+    text-align: center;
+    color: white;
+  }
+}
+
+section {
+    background-color: lightgrey;
+    height: 400px;
+  h2 {
+    padding-top: 100px;
+    margin-top: 0;
+  }
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  h2 {
+    margin: 0;
+    padding: 5px;
+    padding-top: 130px;
+    border-bottom: 1px solid black
+  }
+
+  p {
+    padding-bottom: 30px;
+  }
+
+  i {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+
+  .fa-user-circle {
+    font-size: 50px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+    // width: 80%;
+
+  }
+  .box1 {
+    height: 200px;
+    width: 150px;
+    background-color: lightgrey;
+  }
+  .box2 {
+    height: 200px;
+    width: 150px;
+    background-color: black;
+  }
+  .box3 {
+    height: 200px;
+    width: 150px;
+    background-color: lightgrey;
+  }
+  .box4 {
+    height: 200px;
+    width: 150px;
+    background-color: black;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: darkgrey;
+  p {
+    display: inline-block;
+    padding: 60px;
+
+}
+}
+
+@media (min-width 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
